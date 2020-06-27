@@ -1,0 +1,2 @@
+2020-06-25 :: Inserindo produto novo
+2020-06-25 :: INSERT INTO produto (id, descricao, estoque, preco_custo, 		preco_venda, codigo_barras, data_cadastro, origem) VALUES ('6', 'Chocolate amargo', '80', '4', '7', '68323453234234', '2020-06-25', 'N')

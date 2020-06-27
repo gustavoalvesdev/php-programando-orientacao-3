@@ -1,0 +1,4 @@
+2020-06-26 :: Alterando um produto
+2020-06-26 :: SELECT * FROM produto WHERE id=2
+2020-06-26 :: SELECT * FROM produto WHERE id=2
+2020-06-26 :: UPDATE produto SET descricao = 'Vinho Brasileiro Tinto Merlot', estoque = 20, preco_custo = '12', preco_venda = '18', codigo_barras = '13523453234234', data_cadastro = '2020-06-23', origem = 'N' WHERE id=2

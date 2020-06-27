@@ -1,0 +1,4 @@
+2020-06-26 :: Clonando um produto
+2020-06-26 :: SELECT * FROM produto WHERE id=2
+2020-06-26 :: SELECT max(id) FROM produto
+2020-06-26 :: INSERT INTO produto (descricao, estoque, preco_custo, preco_venda, codigo_barras, data_cadastro, origem, id ) values ('Vinho Brasileiro Tinto Merlot(clonado)', '20', '12', '18', '13523453234234', '2020-06-23', 'N', 8 )

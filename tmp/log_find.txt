@@ -1,0 +1,2 @@
+2020-06-26 :: Buscando um produto
+2020-06-26 :: SELECT * FROM produto WHERE id=2
