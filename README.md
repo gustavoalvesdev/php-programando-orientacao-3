@@ -210,3 +210,141 @@ Repositório para os exercícios do livro "PHP - Programando com Orientação a 
 <li>Namespaces</li>
 <li>SPL Autoload</li>
 <li>PDO - PHP Data Objects</li>
+
+### Capítulo 4 - Persistência
+<li>Introdução</li>
+<li>Gateways
+    <ul>
+        <li>Table Data Gateway</li>
+        <li>Row Data Gateway</li>
+        <li>Active Record</li>
+        <li>Data Mapper</li>
+    </ul>
+</li>
+<li>Conexões e Transações
+    <ul>
+        <li>Classe para conexões com Factory Method</li>
+        <li>Classe para transações</li>
+        <li>Registro de log e Strategy Pattern</li>
+    </ul>
+</li>
+<li>Active Record e Layer Supertype
+    <ul>
+        <li>Definição da classe Active Record</li>
+        <li>Novo objeto</li>
+        <li>Obter objeto</li>
+        <li>Alterar objeto</li>
+        <li>Clonar Objeto</li>
+        <li>Excluir objeto</li>
+        <li>Encapsulamento</li>
+    </ul>
+</li>
+<li>Definição de Critérios
+    <ul>
+        <li>Query Object e Composite Pattern</li>
+    </ul>
+</li>
+<li>Manipulação de coleções de objetos
+    <ul>
+        <li>Repository Pattern</li>
+        <li>Preparação dos dados</li>
+        <li>Carregar coleção de objetos</li>
+        <li>Alterar coleção de objetos</li>
+        <li>Excluir coleção de objetos</li>
+    </ul>
+</li>
+
+### Capítulo 5 - Apresentação e controle
+<li>Padrão MVC</li>
+<li>Organização de Namespaces e diretórios</li>
+<li>SPL Autoloaders
+    <ul>
+        <li>Library Loader</li>
+        <li>Application Loader</li>
+        <li>Exemplo de uso</li>
+    </ul>
+</li>
+<li>Padrões de controle
+    <ul>
+        <li>Page Controller</li>
+        <li>Front Controller</li>
+        <li>Remote Facade</li>
+    </ul>
+</li>
+<li>Padrão de apresentação
+    <ul>
+        <li>Componentes</li>
+        <li>Template View</li>
+    </ul>
+</li>
+<li>Criando componentes
+    <ul>
+        <li>Elementos HTML</li>
+        <li>Imagens</li>
+        <li>Tabelas</li>
+        <li>Painéis</li>
+        <li>Caixas</li>
+        <li>Diálogo de mensagem</li>
+        <li>Diálogo de questionamento</li>
+        <li>Ações</li>
+    </ul>
+</li>
+<li>Usando templates
+    <ul>
+        <li>Substituições simples</li>
+        <li>Substituições com repetições</li>
+    </ul>
+</li>
+
+### Capítulo 6 - Formulários e listagens
+<li>Formulários
+    <ul>
+        <li>Classe para formulários</li>
+        <li>Classes para campos de formulários</li>
+        <li>Exemplos</li>
+        <li>Form Wrappers</li>
+    </ul>
+</li>
+<li>Listagens
+    <ul>
+        <li>Classe para Datagrids</li>
+        <li>Colunas da Datagrid</li>
+        <li>Ações da Datagrid</li>
+        <li>Exemplos</li>
+        <li>Datagrid Wrappers</li>
+    </ul>
+</li>
+
+### Capítulo 7 - Criando uma aplicação
+<li>Aplicação
+    <ul>
+        <li>Index</li>
+        <li>Template</li>
+        <li>Iniciando o projeto</li>
+    </ul>
+</li>
+<li>Modelo
+    <ul>
+        <li>Modelo de classes</li>
+        <li>Modelo relacional</li>
+    </ul>
+</li>
+<li>Classes de modelo
+    <ul>
+        <li>Código-fonte de classes</li>
+        <li>Testando as classes de modelo</li>
+    </ul>
+</li>
+<li>Programa
+    <ul>
+        <li>Cadastro de pesoas</li>
+        <li>Criando Traits para ações comuns</li>
+        <li>Cadastro de produtos</li>
+        <li>Cadastro de cidades</li>
+        <li>Manipulação de sessões</li>
+        <li>Registro de vendas</li>
+        <li>Relatório de contas</li>
+        <li>Controle de login</li>
+    </ul>
+</li>
+<li>Considerações finais</li>
