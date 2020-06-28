@@ -1,0 +1,2 @@
+2020-06-28 :: Protegendo o acesso a um produto
+2020-06-28 :: SELECT * FROM produto WHERE id=2
