@@ -1,9 +1,9 @@
 <?php 
 
 class Filter extends Expression {
-	private $variable; // variável
-	private $operator; // operador
-	private $value; // valor
+	private $variable; // variável   // 'idade'
+	private $operator; // operador   // '<'
+	private $value; // valor         // 16
 
 	public function __construct($variable, $operator, $value) {
 		// armazena as propriedades
