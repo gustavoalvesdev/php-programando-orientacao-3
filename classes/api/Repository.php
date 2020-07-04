@@ -78,5 +78,27 @@ final class Repository
                 throw new Exception('Não há transação ativa!!');
             }
         }
+
+        function count(Criteria $criteria)
+        {
+            $expression = $criteria->dump();
+            $sql = 'SELECT count(*) FROM ' . constant($this->activeRecord.'::TABLENAME');
+            if ($expression) {
+                $sql .= ' WHERE ' . $expression;
+            }
+
+            // obtém a transação ativa
+
+            if ($conn = Transaction::get()) {
+                Transaction::log($sql); // registra mensagem de log
+                $result = $conn->query($sql); // executa instrução de SELECT
+                if ($result) {
+                    $row = $result->fetch();
+                }
+                return $row[0]; // retorna o resultado
+            } else {
+                throw new Exception('Não há transação ativa!!');
+            }
+        }
     }
 }
