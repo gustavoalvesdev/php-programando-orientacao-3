@@ -1,0 +1,7 @@
+2020-07-03 :: SELECT * FROMproduto WHERE (estoque > 10 AND origem = 'N')
+2020-07-03 :: SELECT * FROMproduto WHERE (estoque > 10 AND origem = 'N')
+2020-07-03 :: SELECT * FROMproduto WHERE (estoque > 10 AND origem = 'N')
+2020-07-03 :: SELECT * FROMproduto WHERE (estoque > 10 AND origem = 'N')
+2020-07-03 :: SELECT * FROM produto WHERE (estoque > 10 AND origem = 'N')
+2020-07-03 :: SELECT * FROM produto WHERE (estoque > 10 AND origem = 'N')
+2020-07-03 :: SELECT count(*) FROM produto WHERE (estoque > 10 AND origem = 'N')

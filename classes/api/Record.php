@@ -19,7 +19,7 @@ class Record {
 			call_user_func(array($this, 'set_'.$prop), $value);
 		} else {
 			if ($value == NULL) {
-				unset($this->data['propr']);
+				unset($this->data[$prop]);
 			} else {
 				$this->data[$prop] = $value; // atribui o valor da propriedade
 			}
@@ -97,7 +97,7 @@ class Record {
 
 	public function load($id) {
 		// monta instrução do SELECT
-		$sql  = "SELECT * FROM {$this->getEntity()}";
+		$sql  = "SELECT * FROM ".$this->getEntity();
 		$sql .= ' WHERE id=' . (int) $id;
 
 		// obtém a transação ativa
@@ -123,7 +123,7 @@ class Record {
 		$id = $id ? $id : $this->id;
 
 		// monta a string de DELETE
-		$sql  = "DELETE FROM {$this->getEntity()}";
+		$sql  = "DELETE FROM ".$this->getEntity();
 		$sql .= ' WHERE id='. (int) $this->data['id'];
 
 		// obtém a transação ativa
@@ -145,7 +145,7 @@ class Record {
 
 	private function getLast() {
 		if ($conn = Transaction::get()) {
-			$sql = "SELECT max(id) FROM {$this->getEntity()}";
+			$sql = "SELECT max(id) FROM ".$this->getEntity();
 
 			// cria log e executa instrução SQL
 			Transaction::log($sql);
