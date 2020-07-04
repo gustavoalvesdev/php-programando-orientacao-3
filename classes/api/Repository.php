@@ -60,5 +60,23 @@ final class Repository
                 throw new Exception('Não há transação ativa!!');
             }
         }
+
+        function delete(Criteria $criteria)
+        {
+            $expression = $criteria->dump();
+            $sql = 'DELETE FROM ' . constant($this->activeRecord.'::TABLENAME');
+            if ($expression) {
+                $sql .= ' WHERE ' . $expression;
+            }
+
+            // obtém a transação ativa
+            if ($conn = Transaction::get()) {
+                Transaction::log($sql); // registra mensagem de log
+                $result = $conn->exec($sql); // executa instrução de DELETE
+                return $result;
+            } else {
+                throw new Exception('Não há transação ativa!!');
+            }
+        }
     }
 }
