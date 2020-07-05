@@ -6,7 +6,7 @@ class ClassLoader
 {
     protected $prefixes = array();
 
-    public function register
+    public function register()
     {
         spl_autoload_register(array($this, 'loadClass'));
     }
