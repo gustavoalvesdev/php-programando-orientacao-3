@@ -1,5 +1,9 @@
 <?php 
 
+namespace Livro\Database;
+
+use Exception;
+
 class Record {
 	protected $data; // array contendo os dados do objeto
 
