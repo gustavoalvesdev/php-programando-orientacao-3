@@ -1,0 +1,13 @@
+2020-07-04 :: SELECT * FROM produto WHERE (preco_venda <= 35 AND origem = 'N')
+2020-07-04 :: SELECT * FROM produto WHERE id=1
+2020-07-04 :: UPDATE produto SET descricao = 'Vinho Brasileiro Tinto Merlot', estoque = '15', preco_custo = '12', preco_venda = 23.4, codigo_barras = '13523453234234', data_cadastro = '2020-06-23', origem = 'N' WHERE id=1
+2020-07-04 :: SELECT * FROM produto WHERE id=2
+2020-07-04 :: UPDATE produto SET descricao = 'Vinho Brasileiro Tinto Merlot', estoque = '20', preco_custo = '12', preco_venda = 23.4, codigo_barras = '13523453234234', data_cadastro = '2020-06-23', origem = 'N' WHERE id=2
+2020-07-04 :: SELECT * FROM produto WHERE id=3
+2020-07-04 :: UPDATE produto SET descricao = 'Café torrado e moído brasileiro', estoque = '100', preco_custo = '4', preco_venda = 9.1, codigo_barras = '34963045930455', data_cadastro = '2020-06-25', origem = 'N' WHERE id=3
+2020-07-04 :: SELECT * FROM produto WHERE id=4
+2020-07-04 :: UPDATE produto SET descricao = 'Chocolate amargo', estoque = '8', preco_custo = '4', preco_venda = 9.1, codigo_barras = '68323453234234', data_cadastro = '2020-06-25', origem = 'N' WHERE id=4
+2020-07-04 :: SELECT * FROM produto WHERE id=5
+2020-07-04 :: UPDATE produto SET descricao = 'Chocolate amargo', estoque = '80', preco_custo = '4', preco_venda = 9.1, codigo_barras = '68323453234234', data_cadastro = '2020-06-25', origem = 'N' WHERE id=5
+2020-07-04 :: SELECT * FROM produto WHERE id=7
+2020-07-04 :: UPDATE produto SET descricao = 'Cerveja artesanal IPA', estoque = '50', preco_custo = '8', preco_venda = 15.6, codigo_barras = '75363453234234', data_cadastro = '2020-06-26', origem = 'N' WHERE id=7

@@ -92,7 +92,6 @@ final class Repository
         }
 
         // obtém a transação ativa
-
         if ($conn = Transaction::get()) {
             Transaction::log($sql); // registra mensagem de log
             $result = $conn->query($sql); // executa instrução de SELECT
